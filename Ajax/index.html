@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+    <title>Testing with json</title>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src='main.js'></script>
+    <script src='buttons.js'></script>
+    <script src='post.js'></script>
+    <script src='temp.js'></script>
+    <script src='delete.js'></script>
+    <script src='get.js'></script>
+</head>
+
+<body>
+    <br>
+    <div class="container">
+
+
+        <div class="row">
+            <div class="col"><button id="removeInputs" class="btn btn-secondary" onclick="change(this)">Only countries</button></div>
+            <div class="col"><button id="getCountry" class="btn btn-info" onclick="change(this)">Search Country</button></div>
+            <div class="col"><button id="showInputs" class ="btn btn-success" onclick="change(this)">Add</button></div> 
+            <div class="col"><button id="removeCountry" class="btn btn-danger" onclick="change(this)">Remove</button></div>
+        </div>
+
+        <div clas>
+
+        </div>
+
+        <br>
+
+        <form id="newCountry" name="countryForm">
+            <div class="row">
+                <div class="col">
+                    <p>Name of the country</p>
+                    <input type="text" id="countryName" class="form-control" placeholder="For example: Norway">
+                </div>
+                <div class="col">
+                    <p>Name of the ruler (if there are any)</p>
+                    <input type="text" id="countryRuler" class="form-control" placeholder="For example: Harald V of Norway">
+                </div>
+                
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <p>The capital of the country</p>
+                    <input type="text" id="countryCapital" class="form-control" placeholder="For example: Oslo">
+                </div>
+                <div class="col">
+                    <p>The area of the country</p>
+                    <input type="text" id="countryArea" class="form-control" placeholder="For example: 385 207">
+                </div>
+                <div class="col">
+                    <p>The population of the country</p>
+                    <input type="text" id="countryPopulation" class="form-control" placeholder="For example: 5.328">
+                </div>
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="submit" class="form-control" style="background-color: rgb(46, 107, 96); color: black;"
+                    value="Add country">
+            </div>
+        </form>
+
+        <div id="idInput" hidden=true>
+            <p>Write the id of the country</p>
+            <div class="row">
+                <input id="idUserInput" type="text" class="col form-control" placeholder="For example: 1">
+                <button class="col form-control" onclick="tempName()" style="background-color: rgb(46, 107, 96); color: black;">Send</button>
+                <p id="searchedCountry" class="form-control"></p>
+            </div>
+        </div>
+            
+
+       
+
+        <br><br>
+
+        <div class="col-12">
+            <table class="table table-active">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Country</th>
+                        <th scope="col">Ruler</th>
+                        <th scope="col">Capital</th>
+                        <th scope="col">Area</th>
+                        <th scope="col">Population (mill)</th>
+                    </tr>
+                </thead>
+                <tbody id="start">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="here"></div>
+</body>
+
+</html>

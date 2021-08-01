@@ -1,0 +1,80 @@
+{
+  "Animals": [{
+      "Dogs": [
+        {
+          "id": 1,
+          "image": "",
+          "name": "Puff",
+          "breeds": "Pomerian", 
+          "sex": "Woman",
+          "age": "2",
+          "description": "Nice dog.",
+          "phone": 42212223 
+        },
+        {
+          "id": 2,
+          "image": "",
+          "name": "Bounty",
+          "breeds": "Siberian Husky", 
+          "sex": "Man",
+          "age": "4",
+          "description": "Kind and active.",
+          "phone": 41155623 
+        },
+        {
+          "id": 3,
+          "image": "",
+          "name": "choco",
+          "breeds": "chowchow", 
+          "sex": "Man",
+          "age": "2",
+          "description": "Nice dog who likes to chil on the couch.",
+          "phone": 45512277 
+        }
+      ],
+      "Cats": [
+        {
+          "id": 1,
+          "image": "",
+          "name": "Bonnie",
+          "breeds": "Bengal cat", 
+          "sex": "Woman",
+          "age": "1",
+          "description": "Quiet and likes to play.",
+          "phone": 41522514 
+        },
+        {
+          "id": 2,
+          "image": "",
+          "name": "Savvy",
+          "breeds": "Savannah cat", 
+          "sex": "Man",
+          "age": "5",
+          "description": "A little evil from time to time, but he is worth it.",
+          "phone": 42231566 
+        }
+      ],
+      "Øgler": [
+        {
+          "id": 1,
+          "image": "",
+          "name": "Ben",
+          "breeds": "Chamaeleon", 
+          "sex": "Woman",
+          "age": "6",
+          "description": "Likes to hide.",
+          "phone": 42233415
+        },
+        {
+          "id": 2,
+          "image": "",
+          "name": "Fiffi",
+          "breeds": "Firfisle", 
+          "sex": "Woman",
+          "age": "3",
+          "description": "Fast and cute.",
+          "phone": 42212223 
+        }
+      ]
+  }]
+}

@@ -1,0 +1,8 @@
+fixs popup login for delete, and a time how long between next login after each time delete.
+Some kind of update when a country gets deleted (make a post which repost (deletes then add) latest country and give deleted id or drop id all togheter)
+
+(fixs the little bug with button search and delete hangup.)
+
+if stuff no work, check xhr in delete
+
+

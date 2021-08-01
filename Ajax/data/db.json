@@ -1,0 +1,36 @@
+{
+  "Countries": [
+    {
+      "id": 1,
+      "Country": "lasse",
+      "Ruler": "King Knut ",
+      "Capital": "boston",
+      "Area": "231314 km²",
+      "Population": "2"
+    },
+    {
+      "id": 2,
+      "Country": "las",
+      "Ruler": "King Knut ",
+      "Capital": "boston",
+      "Area": "231314 km²",
+      "Population": "2"
+    },
+    {
+      "id": 3,
+      "Country": "lse",
+      "Ruler": "King Knut ",
+      "Capital": "boston",
+      "Area": "231314 km²",
+      "Population": "2"
+    },
+    {
+      "id": 4,
+      "Country": "lase",
+      "Ruler": "King Knut ",
+      "Capital": "boston",
+      "Area": "231314 km²",
+      "Population": "2"
+    }
+  ]
+}
