@@ -15,28 +15,34 @@ $(document).ready(function(){
         $.each(animals, function(i, animal){
           if (i === 0){
             console.log(i + "første");
-            //Make new row
-            //addClass(), (".classname")
-            $animals.append("<div class='row temp'> <span class='col-sm-6'>" + "The " + animal.type + " is a " + animal.breed + " </span>");
+            // Make new row
+            $animals.append(`<div class="row temp"> <span class="col-sm-6 tt"> <img src="${animal.image}" /></span>`);
 
           } else if (i === 1){
             console.log(i + "andre");
-            //Last col
-            $(".temp").append("<span class='col-sm-6'>" + "The " + animal.type + " is a " + animal.breed + " </span></div>");
+            // Last col
+            $(".temp").append(`<span class="col-sm-6 tt"> <img src="${animal.image}" /></span></div>`);
           }
           else if (i % 2 === 0){
             console.log(i + "tredje");
             //Make new row
-            $animals.append("<div class='row temp'> <span class='col-sm-6'>" + "The " + animal.type + " is a " + animal.breed + " </span>");
+            $animals.append(`<div class="row temp"> <span class="col-sm-6 tt"> <img src="${animal.image}" /></span>`);
             
           } else if (i % 2 === 1){
             console.log(i + "fjerde");
             //Last col
-            $(".temp").first().append("<span class='col-sm-6'>" + "The " + animal.type + " is a " + animal.breed + " </span></div>");
-            // .append("<span class='col-sm-6'>" + "The " + animal.type + " is a " + animal.breed + " </span></div>");
+            $(".temp").each(function (i, obj){
+              if (obj.children.length <= 1){
+                $(this).append(`<span class="col-sm-6 tt"> <img src="${animal.image}" /></span></div>`);
+                return false;
+              }
+
+});
+
 
           }
         })
       }
     })
 });
+

@@ -65,6 +65,17 @@
           "age": "6",
           "description": "Likes to hide.",
           "phone": 42233415
+        },
+        {
+          "id": 7,
+          "image": "https://t4.ftcdn.net/jpg/01/15/52/31/360_F_115523122_e4ry4EKsouP9kl2auNN1wSREoJq3kdcE.jpg",
+          "type": "Lizard",
+          "name": "Ben",
+          "breed": "Chameleon", 
+          "sex": "Male",
+          "age": "6",
+          "description": "Likes to hide.",
+          "phone": 42233415
         }
 
   ]
