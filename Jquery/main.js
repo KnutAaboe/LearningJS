@@ -8,41 +8,80 @@ $(document).ready(function(){
       type: "GET",
       url: "http://localhost:5000/Animals",
       success: function(animals){
-        // console.log("success", data);
         //Two and two, even if its only 1 left
         //Drop down for each different animal type
-        //Fixs uniqe divs - now it adds into the older ones too
-        $.each(animals, function(i, animal){
-          if (i === 0){
-            console.log(i + "første");
-            // Make new row
-            $animals.append(`<div class="row temp"> <span class="col-sm-6 tt"> <img src="${animal.image}" /></span>`);
 
-          } else if (i === 1){
-            console.log(i + "andre");
-            // Last col
-            $(".temp").append(`<span class="col-sm-6 tt"> <img src="${animal.image}" /></span></div>`);
-          }
-          else if (i % 2 === 0){
-            console.log(i + "tredje");
-            //Make new row
-            $animals.append(`<div class="row temp"> <span class="col-sm-6 tt"> <img src="${animal.image}" /></span>`);
-            
-          } else if (i % 2 === 1){
-            console.log(i + "fjerde");
-            //Last col
-            $(".temp").each(function (i, obj){
-              if (obj.children.length <= 1){
-                $(this).append(`<span class="col-sm-6 tt"> <img src="${animal.image}" /></span></div>`);
+        if (!$.trim(animals)){
+          $animals.append(`<div class="tt all-adopted"><strong>All animals are adopted</strong></div>`);
+
+        } else {
+          $.each(animals, function(i, animal){
+            if (i % 2 === 0){
+              
+              $animals.append(`
+              <div class="row temp"> 
+              <span id="for-adoption-section" class="col-sm-6 tt"> 
+              <img class="for-adoption-img" src="${animal.image}" alt="${animal.type}" />
+              <div class="row">
+              <div class="col">Breed </br>${animal.breed}</div>
+              <div class="col">Name  </br>${animal.name}</div>
+              <div class="col">Sex   </br>${animal.sex}</div>
+              <div class="col">Age   </br>${animal.age}</div>
+  
+              </div>
+  
+              <div class="row desc"> ${animal.description}</div>
+              
+              </span>
+              `);
+  
+            } else {
+              $(".temp").each(function (i, obj){
+              if (obj.children.length < 2){
+                $(this).append(`
+                  <span id="for-adoption-section" class="col-sm-6 tt"> 
+                  <img src="${animal.image}" class="for-adoption-img" alt="${animal.type}"/>
+                  <div class="row">
+                  <div class="col">Breed </br>${animal.breed}</div>
+                  <div class="col">Name  </br>${animal.name}</div>
+                  <div class="col">Sex   </br>${animal.sex}</div>
+                  <div class="col">Age   </br>${animal.age}</div>
+  
+                  </div>
+  
+                  <div class="row desc"> ${animal.description}</div>
+                  
+                  
+                  </span>
+                  </div>
+                  `);
                 return false;
               }
+            });
+  
+            }
+  
+          })
+        }
+        
 
-});
+      },
+      error: function(xhr, textStatus, thrownError){
 
-
-          }
-        })
+        $animals.append(`<div class="tt all-adopted">Server problems: <strong>${xhr.status} - ${xhr.statusText}</strong></div>`)
+        console.log(xhr.statusText + "   " + xhr.status);
+        console.log(textStatus);
+        console.log(thrownError);
       }
+
+
     })
+
+    $({
+      
+
+    })
+
+
 });
 

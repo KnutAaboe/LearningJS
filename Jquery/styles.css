@@ -14,9 +14,29 @@ body {
 
 .tt {
   text-align: center;
+  margin: 0;
+  padding-left: 32px;
+  padding-right: 32px;
+
 }
 
 .temp {
   margin-top: 40px;
-  margin-bottom: 40px;
+}
+
+.desc {
+  padding: 15px;
+}
+
+
+
+/* height auto when only one shows */
+.for-adoption-img {
+  width: 500px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.all-adopted{
+  font-size: 30px;
 }

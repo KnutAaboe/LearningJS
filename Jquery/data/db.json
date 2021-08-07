@@ -1,82 +1,71 @@
 {
   "Animals": [
-        {
-          "id": 1,
-          "type": "Dog",
-          "image": "https://t4.ftcdn.net/jpg/01/15/52/31/360_F_115523122_e4ry4EKsouP9kl2auNN1wSREoJq3kdcE.jpg",
-          "name": "Puff",
-          "breed": "Pomerian", 
-          "sex": "Female",
-          "age": "2",
-          "description": "Nice dog.",
-          "phone": 42212223 
-        },
-        {
-          "id": 2,
-          "image": "https://t4.ftcdn.net/jpg/01/15/52/31/360_F_115523122_e4ry4EKsouP9kl2auNN1wSREoJq3kdcE.jpg",
-          "type": "Dog",
-          "name": "Bounty",
-          "breed": "Siberian Husky", 
-          "sex": "Male",
-          "age": "4",
-          "description": "Kind and active.",
-          "phone": 41155623 
-        },
-        {
-          "id": 3,
-          "image": "https://t4.ftcdn.net/jpg/01/15/52/31/360_F_115523122_e4ry4EKsouP9kl2auNN1wSREoJq3kdcE.jpg",
-          "type": "Dog",
-          "name": "choco",
-          "breed": "chowchow", 
-          "sex": "Male",
-          "age": "2",
-          "description": "Nice dog who likes to chil on the couch.",
-          "phone": 45512277 
-        },
-        {
-          "id": 4,
-          "image": "https://t4.ftcdn.net/jpg/01/15/52/31/360_F_115523122_e4ry4EKsouP9kl2auNN1wSREoJq3kdcE.jpg",
-          "type": "Cat",
-          "name": "Bonnie",
-          "breed": "Bengal cat", 
-          "sex": "Female",
-          "age": "1",
-          "description": "Quiet and likes to play.",
-          "phone": 41522514 
-        },
-        {
-          "id": 5,
-          "image": "https://t4.ftcdn.net/jpg/01/15/52/31/360_F_115523122_e4ry4EKsouP9kl2auNN1wSREoJq3kdcE.jpg",
-          "type": "Cat",
-          "name": "Savvy",
-          "breed": "Savannah cat", 
-          "sex": "Male",
-          "age": "5",
-          "description": "A little evil from time to time, but he is worth it.",
-          "phone": 42231566 
-        },
-        {
-          "id": 6,
-          "image": "https://t4.ftcdn.net/jpg/01/15/52/31/360_F_115523122_e4ry4EKsouP9kl2auNN1wSREoJq3kdcE.jpg",
-          "type": "Lizard",
-          "name": "Ben",
-          "breed": "Chameleon", 
-          "sex": "Male",
-          "age": "6",
-          "description": "Likes to hide.",
-          "phone": 42233415
-        },
-        {
-          "id": 7,
-          "image": "https://t4.ftcdn.net/jpg/01/15/52/31/360_F_115523122_e4ry4EKsouP9kl2auNN1wSREoJq3kdcE.jpg",
-          "type": "Lizard",
-          "name": "Ben",
-          "breed": "Chameleon", 
-          "sex": "Male",
-          "age": "6",
-          "description": "Likes to hide.",
-          "phone": 42233415
-        }
-
+        
+    {
+      "id": 1,
+      "type": "Dog",
+      "image": "https://images.pexels.com/photos/7683656/pexels-photo-7683656.jpeg?cs=srgb&dl=pexels-koolshooters-7683656.jpg&fm=jpg",
+      "name": "Puff",
+      "breed": "Pomeranian", 
+      "sex": "Female",
+      "age": "2",
+      "description": "This animal is a very good friend of mine, brings a smile on my face everyday even in my worst days. Sadly I am going away for college and I do not want my animal to feel trapped in my small college dorm. This is a very kind animal which can be both active and a amazing sofa couch buddy.",
+      "phone": 42212223 
+    },
+    {
+      "id": 2,
+      "image": "https://images.pexels.com/photos/245035/pexels-photo-245035.jpeg?cs=srgb&dl=pexels-tranmautritam-245035.jpg&fm=jpg",
+      "type": "Dog",
+      "name": "Bounty",
+      "breed": "Siberian Husky", 
+      "sex": "Male",
+      "age": "4",
+      "description": "This animal is a very good friend of mine, brings a smile on my face everyday even in my worst days. Sadly I am going away for college and I do not want my animal to feel trapped in my small college dorm. This is a very kind animal which can be both active and a amazing sofa couch buddy.",
+      "phone": 41155623 
+    },
+    {
+      "id": 3,
+      "image": "https://images.pexels.com/photos/8412357/pexels-photo-8412357.jpeg?cs=srgb&dl=pexels-lemuel-8412357.jpg&fm=jpg",
+      "type": "Dog",
+      "name": "choco",
+      "breed": "Chowchow", 
+      "sex": "Male",
+      "age": "2",
+      "description": "This animal is a very good friend of mine, brings a smile on my face everyday even in my worst days. Sadly I am going away for college and I do not want my animal to feel trapped in my small college dorm. This is a very kind animal which can be both active and a amazing sofa couch buddy.",
+      "phone": 45512277 
+    },
+    {
+      "id": 4,
+      "image": "https://images.pexels.com/photos/954720/pexels-photo-954720.jpeg?cs=srgb&dl=pexels-tranmautritam-954720.jpg&fm=jpg",
+      "type": "Cat",
+      "name": "Bonnie",
+      "breed": "Persian", 
+      "sex": "Female",
+      "age": "1",
+      "description": "This animal is a very good friend of mine, brings a smile on my face everyday even in my worst days. Sadly I am going away for college and I do not want my animal to feel trapped in my small college dorm. This is a very kind animal which can be both active and a amazing sofa couch buddy.",
+      "phone": 41522514 
+    },
+    {
+      "id": 5,
+      "image": "https://images.pexels.com/photos/4418644/pexels-photo-4418644.jpeg?cs=srgb&dl=pexels-fox-4418644.jpg&fm=jpg",
+      "type": "Cat",
+      "name": "Savvy",
+      "breed": "Sokoke", 
+      "sex": "Male",
+      "age": "5",
+      "description": "This animal is a very good friend of mine, brings a smile on my face everyday even in my worst days. Sadly I am going away for college and I do not want my animal to feel trapped in my small college dorm. This is a very kind animal which can be both active and a amazing sofa couch buddy.",
+      "phone": 42231566 
+    },
+    {
+      "id": 6,
+      "image": "https://images.pexels.com/photos/761292/pexels-photo-761292.jpeg?cs=srgb&dl=pexels-krizjohn-rosales-761292.jpg&fm=jpg",
+      "type": "Lizard",
+      "name": "Ben",
+      "breed": "Chameleon", 
+      "sex": "Male",
+      "age": "6",
+      "description": "This animal is a very good friend of mine, brings a smile on my face everyday even in my worst days. Sadly I am going away for college and I do not want my animal to feel trapped in my small college dorm. This is a very kind animal which can be both active and a amazing sofa couch buddy.",
+      "phone": 42233415
+    }
   ]
 }
