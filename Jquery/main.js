@@ -73,14 +73,10 @@ $(document).ready(function(){
         console.log(textStatus);
         console.log(thrownError);
       }
-
-
     })
 
     $({
-      
-
-    })
+})
 
 
 });
