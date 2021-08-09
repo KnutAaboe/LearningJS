@@ -3,13 +3,16 @@
 $(document).ready(function(){
 
   const $animals = $("#animals-listing");
+  const $options = $("#animal-options");
+  let options = ["Dog", "Cat", "Lizard"]
+  let clickedOptions = [];
 
     $.ajax({
       type: "GET",
       url: "http://localhost:5000/Animals",
       success: function(animals){
-        //Two and two, even if its only 1 left
-        //Drop down for each different animal type
+        //A button click like on lensway or what that glasses shop had.
+        //A arrow, etc, to read all about that animal. Before arrow show first 2 sentc and 1 faded
 
         if (!$.trim(animals)){
           $animals.append(`<div class="tt all-adopted"><strong>All animals are adopted</strong></div>`);
@@ -31,6 +34,7 @@ $(document).ready(function(){
               </div>
   
               <div class="row desc"> ${animal.description}</div>
+              <div class="row desc"> Contact information:   ${animal.contact}</div>
               
               </span>
               `);
@@ -50,6 +54,7 @@ $(document).ready(function(){
                   </div>
   
                   <div class="row desc"> ${animal.description}</div>
+                  <div class="row desc"> Contact information:   ${animal.contact}</div>
                   
                   
                   </span>
@@ -62,7 +67,32 @@ $(document).ready(function(){
             }
   
           })
+
+          $.each(options, function(i, option){
+            $options.append(`
+            <span>${option}</span>
+            
+            `)
+
+          })
+
+          $("#animal-options").children().each(function(i, obj){
+            $(this).click(function (){
+
+              console.log(clickedOptions)
+
+              //how have function inside
+              $(this).attr("class") == undefined ? $(this).attr("class", "options-clicked") && clickedOptions.push($(this).text()) : $(this).removeAttr("class", "options-clicked") && removeClickedOption($(this));
+            })
+
+
+          })
+         
+
+
         }
+
+        
         
 
       },
@@ -75,9 +105,17 @@ $(document).ready(function(){
       }
     })
 
-    $({
-})
+    //Prevents marking text when clicking on the animal-options
+    $("#animal-options").mousedown(function(e){ e.preventDefault(); });
+
+
+    function removeClickedOption(option){
+      var index = clickedOptions.indexOf(option);
+      clickedOptions.splice(index, 1);
+    }
+  
 
 
 });
+
 

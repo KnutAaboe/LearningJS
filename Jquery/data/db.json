@@ -10,7 +10,7 @@
       "sex": "Female",
       "age": "2",
       "description": "This animal is a very good friend of mine, brings a smile on my face everyday even in my worst days. Sadly I am going away for college and I do not want my animal to feel trapped in my small college dorm. This is a very kind animal which can be both active and a amazing sofa couch buddy.",
-      "phone": 42212223 
+      "contact": 42212223 
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
       "sex": "Male",
       "age": "4",
       "description": "This animal is a very good friend of mine, brings a smile on my face everyday even in my worst days. Sadly I am going away for college and I do not want my animal to feel trapped in my small college dorm. This is a very kind animal which can be both active and a amazing sofa couch buddy.",
-      "phone": 41155623 
+      "contact": 41155623 
     },
     {
       "id": 3,
@@ -32,7 +32,7 @@
       "sex": "Male",
       "age": "2",
       "description": "This animal is a very good friend of mine, brings a smile on my face everyday even in my worst days. Sadly I am going away for college and I do not want my animal to feel trapped in my small college dorm. This is a very kind animal which can be both active and a amazing sofa couch buddy.",
-      "phone": 45512277 
+      "contact": 45512277 
     },
     {
       "id": 4,
@@ -43,7 +43,7 @@
       "sex": "Female",
       "age": "1",
       "description": "This animal is a very good friend of mine, brings a smile on my face everyday even in my worst days. Sadly I am going away for college and I do not want my animal to feel trapped in my small college dorm. This is a very kind animal which can be both active and a amazing sofa couch buddy.",
-      "phone": 41522514 
+      "contact": 41522514 
     },
     {
       "id": 5,
@@ -54,7 +54,7 @@
       "sex": "Male",
       "age": "5",
       "description": "This animal is a very good friend of mine, brings a smile on my face everyday even in my worst days. Sadly I am going away for college and I do not want my animal to feel trapped in my small college dorm. This is a very kind animal which can be both active and a amazing sofa couch buddy.",
-      "phone": 42231566 
+      "contact": 42231566 
     },
     {
       "id": 6,
@@ -65,7 +65,7 @@
       "sex": "Male",
       "age": "6",
       "description": "This animal is a very good friend of mine, brings a smile on my face everyday even in my worst days. Sadly I am going away for college and I do not want my animal to feel trapped in my small college dorm. This is a very kind animal which can be both active and a amazing sofa couch buddy.",
-      "phone": 42233415
+      "contact": 42233415
     }
   ]
 }
