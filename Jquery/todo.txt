@@ -5,7 +5,6 @@ Can login with admin to change texts
 JQuery toggle(effect?)
 Maybe have the toggle stuff and have a typewrite, can write one word at a time or choose to see all
 
-Promise/callback stuff?
 
 Both JQuery HTML
 A little script making text bigger or smaller
