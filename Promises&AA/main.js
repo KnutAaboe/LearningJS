@@ -21,6 +21,7 @@ function sendOrder(response) {
     })
 }
 
+
 // preppOrder(200).then(order => {
 //     return sendOrder(order)}).then(sentOrder => {
 //         console.log(sentOrder);
